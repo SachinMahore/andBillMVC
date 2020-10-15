@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "AddEdit";
+}
+
+
+<script src="~/Content/Pages/Purchase/Purchase.js"></script>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="widget-box">
+            <div class="widget-title">
+                <span class="icon"> <i class="icon-star-empty"></i> </span>
+                <h5>Purchase Account</h5>
+                <div class="btn-group pull-right">
+                    <button type="button" class="btn btn-info" onclick="search();">Search</button>
+                    <button id="PaymentConsole" type="button" class="btn btn-primary">Credit Voucher</button>
+                    <button type="button" class="btn btn-info" onclick="saveUpdateAccount()">Save</button>
+
+                    <button type="button" class="btn btn-danger" onclick="deleteAccount()">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="widget-box">
+            <div class="widget-content">
+                <div class="row-fluid">
+                    <div class="control-group">
+                        <div class="span1 pull-left">
+                            <label class="control-label">Barcode</label>
+                            <div class="controls">
+                                <input type="text" id="txtBarcode" placeholder="Account name"  />
+                            </div>
+                        </div>
+                        <div class="span1">
+                            <label class="control-label">Quantity</label>
+                            <div class="controls">
+                                <input type="text" id="txtQty" placeholder="Phone"  />
+                            </div>
+                        </div>
+                        <div class="span1">
+                            <label class="control-label">Supplier Id</label>
+                            <div class="controls">
+                                <input type="text" id="txtSuppId" placeholder="Phone" />
+                            </div>
+                        </div>
+                        <div class="span1">
+                            <label class="control-label">Order Id</label>
+                            <div class="controls">
+                                <input type="text" id="txtOId" placeholder="Phone" />
+                            </div>
+                        </div>
+
+                        <div class="span1">
+                            <label class="control-label">Item Id</label>
+                            <div class="controls">
+                                <input type="text" id="txtIId"  />
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="span2">
+                            <label class="control-label">Purchase Price</label>
+                            <div class="controls">
+                                <input type="email" id="txtPPrice"  />&nbsp;<span id="errmsg"></span>
+                            </div>
+                        </div>
+                        <div class="span1">
+                            <label class="control-label">Sale Price</label>
+                            <div class="controls">
+                                <input type="text" id="txtSPrice"   />
+                            </div>
+                        </div>
+                        <div class="span1">
+                            <label class="control-label">CreatedDate</label>
+                            <div class="controls">
+                                <input type="text" id="txtCreatedDate" readonly />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>

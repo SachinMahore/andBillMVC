@@ -1,0 +1,495 @@
+﻿@using Dharvik.Models
+@{
+    ViewBag.Title = "Customer Account";
+}
+
+<script src="~/Content/Pages/Customer/Customer.js"></script>
+<div id="breadcrumb"> <a href="/Home/Index" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="tip-bottom">Account Information</a> <a href="#" class="current">Add/Edit</a> </div>
+<input type="hidden" id="hndAccountID" value="@Model.CustId" />
+
+<input type="hidden" id="hndAttachFile" value="" />
+<input type="hidden" id="hndCID" />
+<input type="hidden" id="hndPNAOID" value="0" />
+<input type="hidden" id="hndAOID" value="0" />
+<input type="hidden" id="hndPackId" value="0" />
+<input type="hidden" id="hndDecalRow" value="0" />
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="widget-box">
+            <div class="widget-title">
+                <span class="icon"> <i class="icon-star-empty"></i> </span>
+                <h5>Customer Account</h5>
+                <div class="btn-group pull-right">
+                    <button type="button" class="btn btn-info" onclick="search();">Search</button>
+                    <button type="button" class="btn btn-info" onclick="saveUpdateAccount()">Save</button>
+                    <button id="PaymentConsole" type="button" class="btn btn-primary">Credit Voucher</button>
+                    
+                    <button type="button" class="btn btn-danger" onclick="deleteAccount()">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="widget-box">
+            <div class="widget-content">
+                <div class="row-fluid">
+                    <div class="control-group">
+                        <div class="span2 pull-left">
+                            <label class="control-label">Account Name</label>
+                            <div class="controls">
+                                <input type="text" id="txtAccountName" placeholder="Account name" value="@Model.CustName" />
+                            </div>
+                        </div>
+                        <div class="span1">
+                            <label class="control-label">Phone</label>
+                            <div class="controls">
+                                <input type="text" id="txtPhone" placeholder="Phone" value="@Model.Mobile" />
+                            </div>
+                        </div>
+
+                        <div class="span1">
+                            <label class="control-label">CreatedDate</label>
+                            <div class="controls">
+                                <input type="text" id="txtCreatedDate" value="@Model.CreatedDateText" readonly />
+                            </div>
+                        </div>
+                        <div class="span1">
+                            <label class="control-label">GSTIN</label>
+                            <div class="controls">
+                                <input type="text" id="txtGSTIN" placeholder="Created Date" value="@Model.GST" readonly />
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <label class="control-label">Type</label>
+                            <div class="controls">
+                                <select id="ddlCompType">
+                                    <option value="0">General</option>
+                                    <option value="1">Shop</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <label class="control-label">Email ID</label>
+                            <div class="controls">
+                                <input type="email" id="txtAccEmail" value="@Model.Email" />&nbsp;<span id="errmsg"></span>
+                            </div>
+                        </div>
+                        <div class="span1">
+                            <label class="control-label">Balance</label>
+                            <div class="controls">
+                                <input type="text" id="txtOpeningBalance" value="@Model.OpeningBalance" readonly />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span8">
+                <div class="widget-title">
+                    <a href="#collapseFive" data-toggle="collapse">
+                        <span class="icon"><i class="icon-align-justify"></i></span>
+                        <h5>Transaction Information</h5>
+                    </a>
+                </div>
+                <div class="collapse in" id="collapseFive">
+                    <table class="table table-bordered table-striped" id="tblDetailTransaction">
+                        <thead>
+                            <tr>
+                                <th>Transaction ID</th>
+                                <th>Debit</th>
+                                <th>Credit</th>
+                                <th>Balance</th>
+                                <th>Trans Date</th>
+                                <th>Created By</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="widget-title">
+                    <a href="#collapseSix" data-toggle="collapse">
+                        <span class="icon"><i class="icon-align-justify"></i></span>
+                        <h5>Invoice Details</h5>
+                    </a>
+                </div>
+                <div class="collapse in" id="collapseSix">
+                    <table class="table table-bordered table-striped" id="tblDetailTransaction">
+                        <thead>
+                            <tr>
+                                <th>Invoice ID</th>
+                                <th>Total Amt</th>
+                                <th>Paid Amt</th>
+                                <th>Balance Amt</th>
+                                <th>GST</th>
+                                <th>Disc</th>
+                                <th>Sale Date</th>
+                                <th>Created By</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+
+                </div>
+
+                <div class="widget-title">
+                    <a href="#collapseTwo" data-toggle="collapse">
+                        <span class="icon"><i class="icon-map-marker"></i></span>
+                        <h5>Address Information</h5>
+                    </a>
+                </div>
+                <div class=" collapse in" id="collapseTwo">
+                    <div class="widget-content span6 form-vertical">
+                        <div class="control-group">
+                            <label class="control-label">Billing Address</label>
+                            <div class="controls">
+                                <textarea id="txtBillingAddress" class="span11">@Model.BillingAddress</textarea>
+
+                            </div>
+                        </div>
+                        <div class="control-group hidden">
+                            <label class="control-label">Billing Street</label>
+                            <div class="controls">
+                                <textarea id="txtBillingStreet" class="span11"></textarea>
+
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span7">Billing City</label>
+                            <label class="control-label span4">Billing State</label>
+                            <div class="controls">
+                                <input type="text" id="txtBillingCity" class="span7" placeholder="Billing City" value="@Model.BillingCity" />
+                                <input type="text" id="txtBillingState" class="span4" placeholder="Billing State" value="@Model.BillingState" />
+
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span7">Billing Zip/Postal Code</label>
+                            <label class="control-label span4">Billing Country</label>
+                            <div class="controls">
+                                <input type="text" id="txtBillingZip" class="span7" placeholder="Billing Zip" value="@Model.BillingZip" />
+                                <input type="text" id="txtBillingCountry" class="span4" placeholder="Billing Country" value="@Model.BillingCountry" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widget-content span6 form-vertical">
+                        <div class="control-group">
+                            <label class="control-label">Shipping Address</label>
+                            <div class="controls">
+                                <textarea id="txtShippingAddress" class="span11">@Model.ShippingAddress</textarea>
+
+                            </div>
+                        </div>
+                        <div class="control-group hidden">
+                            <label class="control-label">Shipping Street</label>
+                            <div class="controls">
+                                <textarea id="txtShippingStreet" class="span11"></textarea>
+
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span7">Shipping City</label>
+                            <label class="control-label span4">Shipping State</label>
+                            <div class="controls">
+                                <input type="text" id="txtShippingCity" class="span7" placeholder="Shipping City" value="@Model.ShippingCity" />
+                                <input type="text" id="txtShippingState" class="span4" placeholder="Shipping State" value="@Model.ShippingState" />
+
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span7">Shipping Zip/Postal Code</label>
+                            <label class="control-label span4">Shipping Country</label>
+                            <div class="controls">
+                                <input type="text" id="txtShippingZip" class="span7" placeholder="Shipping Zip" value="@Model.ShippingZip" />
+                                <input type="text" id="txtShippingCountry" class="span4" placeholder="Shipping Country" value="@Model.ShippingCountry" />
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="widget-title">
+                    <a href="#collapseThree" data-toggle="collapse">
+                        <span class="icon"><i class="icon-lock"></i></span>
+                        <h5>Login Information</h5>
+                    </a>
+                </div>
+                <div class="collapse in" id="collapseThree">
+
+                    <div class="widget-content span6 form-vertical">
+                        <div class="control-group">
+                            <label class="control-label">Password ID</label>
+                            <div class="controls">
+                                <input type="text" id="txtPasswordId" class="span11" placeholder="Password ID" value="@Model.Password" readonly />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="widget-content span6 form-vertical">
+                        <div class="control-group">
+                            <label class="control-label">Pin No.</label>
+                            <div class="controls">
+                                <input type="text" id="txtPin" class="span11" placeholder="Pin No." value="@Model.CustId" readonly />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="span4">
+
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-th-list"></i>
+                        </span>
+                        <h5>Activity</h5>
+                    </div>
+                    <div class="widget-content">
+                        <div class="widget-box">
+                            <div class="widget-title">
+                                <ul class="nav nav-tabs">
+
+                                    <li class="active"><a data-toggle="tab" href="#tabLeadEmail">Email</a></li>
+                                    <li><a data-toggle="tab" href="#tabLeadChat">Chat</a></li>
+                                    <li><a data-toggle="tab" href="#tabhistory">Audit Trail</a></li>
+                                    @*<li><a data-toggle="tab" href="#tabCallHistory">History</a></li>*@
+                                </ul>
+                            </div>
+                            <div class="widget-content tab-content">
+
+                                <div id="tabLeadEmail" class="tab-pane active  form-horizontal">
+                                    <div class="form-horizontal nopadding">
+                                        <table id="tblAccounts" class="table table-responsive table-condensed">
+                                            <tbody>
+                                                <tr>
+                                                    <td><button type="submit" class="btn btn-info" onclick="getEmailHistory()">History</button></td>
+                                                    <td><button type="submit" id="btnNewEmail" class="btn btn-info" onclick="sendNewEmail()">New Email</button></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><label>From</label></td>
+                                                    <td>
+                                                        <select id="ddlEmailFrom">
+                                                            <option value="admin@nationaltheftsearchandrecovery.org">admin@esankalp.com</option>
+                                                            <option value="admin@ntsrtracking.com">admin@esankalp.com</option>
+                                                            <option value="carolh@esankalp.com">sachinm@esankalp.com</option>
+                                                            <option value="claudiaa@esankalp.com">shruteshb@esankalp.com</option>
+
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr><td><label>To</label></td><td><input id="txtToAccountEmail" type="text" class="span11" value="@Model.Email" placeholder="Enter To Email..." /></td></tr>
+                                                <tr><td><label>CC</label></td><td><input id="txtCCAccountEmail" type="text" class="span11" value="" placeholder="Enter CC Email..." /></td></tr>
+                                                <tr><td><label>BCC</label></td><td><input id="txtBCCAccountEmail" type="text" class="span11" value="" placeholder="Enter Bcc Email..." /></td></tr>
+                                                <tr><td><label>Subject</label></td><td><input id="txtAccountSubject" type="text" class="span11" value="" placeholder="Enter Subject..." /></td></tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <textarea id="TemplateHTML" cols="20" rows="20"></textarea>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <button class="btn btn-primary" id="btnSelectTemplate">Select Template</button> <button class="btn btn-primary" id="btnSendEmail" onclick="sendEmail()">Send Email</button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id="tabLeadChat" class="tab-pane">
+                                    <button id="btnAddChat" class="btn btn-primary">New Chat</button>
+
+                                    <ul id="tblChat" class="recent-posts"></ul>
+                                </div>
+                                <div id="tabhistory" class="tab-pane">
+                                    <ul id="tblHistoryDetail" class="recent-posts"></ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-th-list"></i>
+                        </span>
+                        <h5>Files <code id="fileCount">@Model.FileUploadCount</code></h5>
+                    </div>
+                    <div class="widget-content">
+                        <div class="control-group">
+                            <label class="control-label">File upload input</label>
+                            <div class="controls">
+                                <input type="file" id="openFileSaveList" />
+                                <button type="button" class="btn btn-info" onclick="saveToFolder();">Upload</button>
+                                <button type="button" class="btn btn-info" onclick="viewFiles();">View</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="fixed-bottom">
+
+    <div class="span12 btn-icon-pg">
+        <ul>
+            <li><i class="icon-bell"></i> Phone</li>
+            <li><i class="icon-comment"></i> Notes</li>
+            <li><i class="icon-time"></i> History</li>
+        </ul>
+    </div>
+
+</footer>
+@*Modal Pop up*@
+
+<div id="popCreditVoucher" class="example_content ">
+    <div class="form-horizontal ">
+
+        <div class="widget-content span6">
+            <div class="form-vertical">
+
+                <label class="control-label">Name</label>
+                <div class="controls">
+                    <input type="text" id="txtPCFirstName" placeholder="First Name" value="" />
+                </div>
+                <label class="control-label">Email</label>
+                <div class="controls">
+                    <input type="text" id="txtPCLastName" placeholder="Last Name" value="" />
+                </div>
+
+                <label class="control-label">Contact</label>
+                <div class="controls">
+                    <input type="text" id="txtPCChargeAmount" />
+                </div>
+                </div>
+            </div>
+                <label class="control-label">Charge Amount</label>
+                <div class="controls">
+                    <input type="text" id="txtPCChargeAmount" />
+                </div>
+
+            </div>
+
+        </div>
+        <div id="popFileDiv" class="example_content ">
+            <table id="tblAccountFiles" class="table table-bordered table-striped with-check" style="height:100px; width:100%!important; overflow:auto;">
+                <thead>
+                    <tr>
+                        <th class="pd-vehicletblText">File Name</th>
+                        <th class="pd-vehicletblText">Creadted By </th>
+                        <th class="pd-vehicletblText">Created Date</th>
+                        <th class="pd-vehicletblText">Action</th>
+                        <th class="pd-vehicletblText">Download</th>
+
+                    </tr>
+                </thead>
+                <tbody class="pd-tbody"></tbody>
+            </table>
+        </div>
+
+        <div id="popChatDet" class="example_content">
+
+            <div class="row-fluid">
+                <div class="control-group">
+                    <textarea id="txtChatBody" class="span12" style="height:100px" placeholder="Enter Chat.."></textarea>
+                    <label class="control-label">Chat Type</label>
+                    <div class="controls">
+                        <select id="ddlChatType">
+
+                            <option value="1">Text Post</option>
+                            <option value="2">Link Post</option>
+                            <option value="3">Content Post</option>
+
+                        </select>
+                    </div>
+                    <input type="text" id="txtChatLink" class="span12" placeholder="Link URL" />
+                    <input type="text" id="txtChatTitle" class="span12" placeholder="Title" />
+                    <div class="hidden" id="chatterUploadDiv"><input type="file" id="chatterUpload" /></div><br />
+                    <a href="#" id="linkChatFile" class="hidden" target="_blank"> </a>
+                    <button id="btnSavechat" type="button" class="btn btn-primary" onclick="saveUpdateChat()">Save</button>
+                    <button id="btnDeletechat" type="button" class="btn btn-danger hidden" onclick="deleteChat()">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div id="popEmaillHistoryDiv" class="example_content ">
+            <table class="table table-bordered table-striped" id="tblEmailHistory">
+                <thead>
+                    <tr>
+                        <th>Email Date</th>
+                        <th>Subject</th>
+
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <style>
+            footer {
+                position: fixed;
+                height: 40px;
+                bottom: 0;
+                width: 100%;
+                background-color: white;
+                box-shadow: 0px 0px 5px 0px #888888;
+            }
+
+            .pd-vehicletblText {
+                text-align: center !important;
+            }
+
+            #errmsg {
+                color: red;
+            }
+
+            #errEMP {
+                color: red;
+            }
+
+            .approved {
+                color: #333;
+            }
+
+            .declined {
+                color: red;
+            }
+
+            .error {
+                color: red;
+            }
+
+            #vehicleInfo_1 td {
+                background-color: #caf2ad !important;
+            }
+        </style>
+        <script>
+            $(function () {
+                CKEDITOR.replace('TemplateHTML', {
+                    fullPage: true,
+                    allowedContent: true,
+                    autoGrow_onStartup: true,
+                    enterMode: CKEDITOR.ENTER_BR,
+                    height: 500,
+                });
+
+
+            });
+        </script>
+        <script>
+
+            getChatist();
+            getHistoryList();
+        </script>
+

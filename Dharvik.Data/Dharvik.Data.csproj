@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D48CE03-A97D-4379-980D-22747ED7FD57}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dharvik.Data</RootNamespace>
+    <AssemblyName>Dharvik.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bill1.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dharvik.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dharvik.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dharvik.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dharvik.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dharvik.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Ingredient.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice1.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Item1.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MyOrder.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OBill.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QBill.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Recipe.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Recipes1.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecipesDet.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecipesDet1.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="syNavigationNode.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="syResource.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="syResourceType.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="syRole.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="syRoleResource.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="syRolesResourcesLevel.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="syUsersRole.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblLogin.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblLoginHistory.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblMessage.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPagesLoginHistory.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_BankMaster.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Bill.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_CallHistory.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Category.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Chattter.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ChatViewedBy.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Client.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_CustAccount.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Customer.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_EMails.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_EmailTemplates.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_EmpAccount.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Employee.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Expenses.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_FromAddress.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Invoice.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Item.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Notes.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Order.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Purchase.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Quotation.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_SuppAccount.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Supplier.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_Transaction.cs">
+      <DependentUpon>Dharvik.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="Dharvik.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Dharvik.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Dharvik.edmx.diagram">
+      <DependentUpon>Dharvik.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dharvik.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Dharvik.edmx</DependentUpon>
+      <LastGenOutput>Dharvik.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Dharvik.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Dharvik.edmx</DependentUpon>
+      <LastGenOutput>Dharvik.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

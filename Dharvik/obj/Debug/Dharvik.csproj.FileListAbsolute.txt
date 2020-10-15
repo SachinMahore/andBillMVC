@@ -1,0 +1,288 @@
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Dharvik.dll.config
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Dharvik.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Dharvik.pdb
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Antlr3.Runtime.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\EntityFramework.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\EntityFramework.SqlServer.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.Google.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Web.Infrastructure.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Newtonsoft.Json.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Owin.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.Helpers.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.Mvc.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.Optimization.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.Razor.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.WebPages.Deployment.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.WebPages.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.WebPages.Razor.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\WebGrease.dll
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.Helpers.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.Mvc.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.Optimization.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.Razor.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.WebPages.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.WebPages.Deployment.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\System.Web.WebPages.Razor.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Newtonsoft.Json.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Antlr3.Runtime.pdb
+E:\Project uptodec2018\Dharvik\Dharvik\bin\EntityFramework.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\EntityFramework.SqlServer.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.Google.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Project uptodec2018\Dharvik\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Project uptodec2018\Dharvik\Dharvik\obj\Debug\Dharvik.csprojResolveAssemblyReference.cache
+E:\Project uptodec2018\Dharvik\Dharvik\obj\Debug\Dharvik.dll
+E:\Project uptodec2018\Dharvik\Dharvik\obj\Debug\Dharvik.pdb
+G:\DharvikInc\Dharvik\bin\Dharvik.dll.config
+G:\DharvikInc\Dharvik\bin\Dharvik.dll
+G:\DharvikInc\Dharvik\bin\Dharvik.pdb
+G:\DharvikInc\Dharvik\bin\Antlr3.Runtime.dll
+G:\DharvikInc\Dharvik\bin\EntityFramework.dll
+G:\DharvikInc\Dharvik\bin\EntityFramework.SqlServer.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Core.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Cookies.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Facebook.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Google.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.OAuth.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Twitter.dll
+G:\DharvikInc\Dharvik\bin\Microsoft.Web.Infrastructure.dll
+G:\DharvikInc\Dharvik\bin\Newtonsoft.Json.dll
+G:\DharvikInc\Dharvik\bin\Owin.dll
+G:\DharvikInc\Dharvik\bin\System.Web.Helpers.dll
+G:\DharvikInc\Dharvik\bin\System.Web.Mvc.dll
+G:\DharvikInc\Dharvik\bin\System.Web.Optimization.dll
+G:\DharvikInc\Dharvik\bin\System.Web.Razor.dll
+G:\DharvikInc\Dharvik\bin\System.Web.WebPages.Deployment.dll
+G:\DharvikInc\Dharvik\bin\System.Web.WebPages.dll
+G:\DharvikInc\Dharvik\bin\System.Web.WebPages.Razor.dll
+G:\DharvikInc\Dharvik\bin\WebGrease.dll
+G:\DharvikInc\Dharvik\bin\System.Web.Helpers.xml
+G:\DharvikInc\Dharvik\bin\System.Web.Mvc.xml
+G:\DharvikInc\Dharvik\bin\System.Web.Optimization.xml
+G:\DharvikInc\Dharvik\bin\System.Web.Razor.xml
+G:\DharvikInc\Dharvik\bin\System.Web.WebPages.xml
+G:\DharvikInc\Dharvik\bin\System.Web.WebPages.Deployment.xml
+G:\DharvikInc\Dharvik\bin\System.Web.WebPages.Razor.xml
+G:\DharvikInc\Dharvik\bin\Newtonsoft.Json.xml
+G:\DharvikInc\Dharvik\bin\Antlr3.Runtime.pdb
+G:\DharvikInc\Dharvik\bin\EntityFramework.xml
+G:\DharvikInc\Dharvik\bin\EntityFramework.SqlServer.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Core.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Facebook.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Cookies.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.OAuth.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Google.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Twitter.xml
+G:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\DharvikInc\Dharvik\obj\Debug\Dharvik.csprojResolveAssemblyReference.cache
+G:\DharvikInc\Dharvik\obj\Debug\Dharvik.dll
+G:\DharvikInc\Dharvik\obj\Debug\Dharvik.pdb
+G:\DharvikInc\Dharvik\bin\Dharvik.Data.dll
+G:\DharvikInc\Dharvik\bin\Dharvik.Data.pdb
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Dharvik.dll.config
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Dharvik.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Dharvik.pdb
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Antlr3.Runtime.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Dharvik.Data.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\EntityFramework.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\EntityFramework.SqlServer.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Core.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Cookies.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Facebook.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Google.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.OAuth.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Twitter.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Web.Infrastructure.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Newtonsoft.Json.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Owin.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.Helpers.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.Mvc.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.Optimization.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.Razor.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.WebPages.Deployment.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.WebPages.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.WebPages.Razor.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\WebGrease.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Dharvik.Data.pdb
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.Helpers.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.Mvc.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.Optimization.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.Razor.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.WebPages.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.WebPages.Deployment.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\System.Web.WebPages.Razor.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Newtonsoft.Json.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Antlr3.Runtime.pdb
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\EntityFramework.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\EntityFramework.SqlServer.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Core.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Facebook.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Cookies.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.OAuth.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Google.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Twitter.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\obj\Debug\Dharvik.csprojResolveAssemblyReference.cache
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\obj\Debug\Dharvik.dll
+G:\grade_web_Free08-09-2018_1500984774\DharvikInc\Dharvik\obj\Debug\Dharvik.pdb
+D:\DharvikInc\Dharvik\bin\Dharvik.dll.config
+D:\DharvikInc\Dharvik\bin\Dharvik.dll
+D:\DharvikInc\Dharvik\bin\Dharvik.pdb
+D:\DharvikInc\Dharvik\bin\Antlr3.Runtime.dll
+D:\DharvikInc\Dharvik\bin\Dharvik.Data.dll
+D:\DharvikInc\Dharvik\bin\EntityFramework.dll
+D:\DharvikInc\Dharvik\bin\EntityFramework.SqlServer.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Google.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DharvikInc\Dharvik\bin\Microsoft.Web.Infrastructure.dll
+D:\DharvikInc\Dharvik\bin\Newtonsoft.Json.dll
+D:\DharvikInc\Dharvik\bin\Owin.dll
+D:\DharvikInc\Dharvik\bin\System.Web.Helpers.dll
+D:\DharvikInc\Dharvik\bin\System.Web.Mvc.dll
+D:\DharvikInc\Dharvik\bin\System.Web.Optimization.dll
+D:\DharvikInc\Dharvik\bin\System.Web.Razor.dll
+D:\DharvikInc\Dharvik\bin\System.Web.WebPages.Deployment.dll
+D:\DharvikInc\Dharvik\bin\System.Web.WebPages.dll
+D:\DharvikInc\Dharvik\bin\System.Web.WebPages.Razor.dll
+D:\DharvikInc\Dharvik\bin\WebGrease.dll
+D:\DharvikInc\Dharvik\bin\Dharvik.Data.pdb
+D:\DharvikInc\Dharvik\bin\System.Web.Helpers.xml
+D:\DharvikInc\Dharvik\bin\System.Web.Mvc.xml
+D:\DharvikInc\Dharvik\bin\System.Web.Optimization.xml
+D:\DharvikInc\Dharvik\bin\System.Web.Razor.xml
+D:\DharvikInc\Dharvik\bin\System.Web.WebPages.xml
+D:\DharvikInc\Dharvik\bin\System.Web.WebPages.Deployment.xml
+D:\DharvikInc\Dharvik\bin\System.Web.WebPages.Razor.xml
+D:\DharvikInc\Dharvik\bin\Newtonsoft.Json.xml
+D:\DharvikInc\Dharvik\bin\Antlr3.Runtime.pdb
+D:\DharvikInc\Dharvik\bin\EntityFramework.xml
+D:\DharvikInc\Dharvik\bin\EntityFramework.SqlServer.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Google.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DharvikInc\Dharvik\obj\Debug\Dharvik.dll
+D:\DharvikInc\Dharvik\obj\Debug\Dharvik.pdb
+D:\DharvikInc\Dharvik\bin\Dharvik.Data.dll.config
+D:\DharvikInc\Dharvik\obj\Debug\Dharvik.csprojAssemblyReference.cache
+D:\DharvikInc\Dharvik\obj\Debug\Dharvik.csproj.CopyComplete
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Dharvik.dll.config
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Dharvik.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Dharvik.pdb
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Antlr3.Runtime.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Dharvik.Data.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\EntityFramework.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\EntityFramework.SqlServer.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Core.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Cookies.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Facebook.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Google.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.OAuth.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Twitter.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Web.Infrastructure.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Newtonsoft.Json.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Owin.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.Helpers.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.Mvc.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.Optimization.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.Razor.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.WebPages.Deployment.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.WebPages.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.WebPages.Razor.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\WebGrease.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Dharvik.Data.pdb
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Dharvik.Data.dll.config
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.Helpers.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.Mvc.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.Optimization.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.Razor.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.WebPages.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.WebPages.Deployment.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\System.Web.WebPages.Razor.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Newtonsoft.Json.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Antlr3.Runtime.pdb
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\EntityFramework.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\EntityFramework.SqlServer.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Core.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Facebook.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Cookies.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.OAuth.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Google.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.Twitter.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\eSankalpProject2020\DharvikInc\Dharvik\obj\Debug\Dharvik.csprojAssemblyReference.cache
+F:\eSankalpProject2020\DharvikInc\Dharvik\obj\Debug\Dharvik.csproj.CoreCompileInputs.cache
+F:\eSankalpProject2020\DharvikInc\Dharvik\obj\Debug\Dharvik.csproj.CopyComplete
+F:\eSankalpProject2020\DharvikInc\Dharvik\obj\Debug\Dharvik.dll
+F:\eSankalpProject2020\DharvikInc\Dharvik\obj\Debug\Dharvik.pdb

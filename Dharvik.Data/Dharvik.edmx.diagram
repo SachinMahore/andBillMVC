@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="221d9fc8f8fe4352b24470c65b440e1b" Name="Diagram1">
+        <EntityTypeShape EntityType="DharvikModel.Bill1" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.Item1" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DharvikModel.MyOrder" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.OBill" Width="1.5" PointX="2.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DharvikModel.QBill" Width="1.5" PointX="5.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DharvikModel.RecipesDet" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.RecipesDet1" Width="1.5" PointX="7.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DharvikModel.syNavigationNode" Width="1.5" PointX="4.75" PointY="7.75" />
+        <EntityTypeShape EntityType="DharvikModel.syResource" Width="1.5" PointX="6.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DharvikModel.syResourceType" Width="1.5" PointX="8.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DharvikModel.syRoleResource" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.syRole" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DharvikModel.syRolesResourcesLevel" Width="1.5" PointX="9.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DharvikModel.syUsersRole" Width="1.5" PointX="2.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_BankMaster" Width="1.5" PointX="10.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Bill" Width="1.5" PointX="10.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_CallHistory" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Chattter" Width="1.5" PointX="12.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_ChatViewedBy" Width="1.5" PointX="4.75" PointY="12.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Client" Width="1.5" PointX="6.75" PointY="12.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_CustAccount" Width="1.5" PointX="12.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Customer" Width="1.5" PointX="12.75" PointY="12.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_EMails" Width="1.5" PointX="0.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_EmailTemplates" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_EmpAccount" Width="1.5" PointX="14.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Employee" Width="1.5" PointX="8.75" PointY="14.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Expenses" Width="1.5" PointX="14.75" PointY="9.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_FromAddress" Width="1.5" PointX="14.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Invoice" Width="1.5" PointX="2.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Item" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Notes" Width="1.5" PointX="4.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Order" Width="1.5" PointX="16.75" PointY="6.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Quotation" Width="1.5" PointX="10.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Supplier" Width="1.5" PointX="16.75" PointY="11.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Transaction" Width="1.5" PointX="12.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DharvikModel.tblLogin" Width="1.5" PointX="14.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DharvikModel.tblLoginHistory" Width="1.5" PointX="16.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DharvikModel.tblMessage" Width="1.5" PointX="18.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.tblPagesLoginHistory" Width="1.5" PointX="18.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DharvikModel.Ingredient" Width="1.5" PointX="6.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DharvikModel.Invoice1" Width="1.5" PointX="18.75" PointY="7.75" />
+        <EntityTypeShape EntityType="DharvikModel.Recipe" Width="1.5" PointX="18.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DharvikModel.Recipes1" Width="1.5" PointX="18.75" PointY="17.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_SuppAccount" Width="1.5" PointX="20.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Category" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DharvikModel.tbl_Purchase" Width="1.5" PointX="21.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

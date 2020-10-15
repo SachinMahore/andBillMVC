@@ -1,0 +1,9 @@
+G:\DharvikInc\Dharvik.Data\bin\Release\Dharvik.Data.dll.config
+G:\DharvikInc\Dharvik.Data\bin\Release\Dharvik.Data.dll
+G:\DharvikInc\Dharvik.Data\bin\Release\Dharvik.Data.pdb
+G:\DharvikInc\Dharvik.Data\bin\Release\EntityFramework.dll
+G:\DharvikInc\Dharvik.Data\bin\Release\EntityFramework.SqlServer.dll
+G:\DharvikInc\Dharvik.Data\bin\Release\EntityFramework.xml
+G:\DharvikInc\Dharvik.Data\bin\Release\EntityFramework.SqlServer.xml
+G:\DharvikInc\Dharvik.Data\obj\Release\Dharvik.Data.dll
+G:\DharvikInc\Dharvik.Data\obj\Release\Dharvik.Data.pdb
